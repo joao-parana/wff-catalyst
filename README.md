@@ -3,9 +3,16 @@
 
 > OBS: este programa foi testado no macOS e no Linux com Apache Spark versões 2.2.1 e 2.3.0. A versão da JVM utilizada foi a 1.8 e o Scala utilizado foi a versão 2.11.11
 
-## Reprodução do experimento
+## Clone o repositório no seu computador
 
-Abra o Terminal no seu Sistema Operacional
+Abra o Terminal no seu Sistema Operacional e execute:
+
+```bash
+git clone git@github.com:joao-parana/wff-catalyst.git
+cd wff-catalyst
+```
+
+## Reprodução do experimento
 
 Instale o Ammonite que é uma shell REPL para Scala com funcionalidades de edição usando apenas o terminal.
 
@@ -31,7 +38,7 @@ import $ivy.`org.apache.spark::spark-sql:2.2.1`
 Isto carrega o SparkSQL, o Catalyst e todas as dependências. 
 Na primeira vez os JARs são baixados e armazenados no cache local e ficam disponíveis para uso. 
 
-em seguida execute na shell `amm` o seguinte:
+Em seguida execute na shell `amm` o seguinte:
 
 ```scala
 import $file.map_pushdow, map_pushdow._
