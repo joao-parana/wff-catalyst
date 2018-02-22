@@ -1,0 +1,9 @@
+target/
+.idea/
+wff-catalyst.iml
+tmp/
+META-INF/
+*.class
+*.jar
+
+
