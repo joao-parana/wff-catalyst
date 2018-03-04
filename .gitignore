@@ -5,5 +5,6 @@ tmp/
 META-INF/
 *.class
 *.jar
-
+derby.log
+metastore_db/
 
