@@ -155,8 +155,9 @@ println("R0.selectExpr(\"x\", \"p\", \"q\", \"myUdfA(x, p) as udfA_99\").selectE
 
 // Stop the underlying SparkContext in this session and clear out 
 // the active and default session
-spark.stop()
-SparkSession.clearActiveSession()
-SparkSession.clearDefaultSession()
 
-exit
+// spark.stop()
+// SparkSession.clearActiveSession()
+// SparkSession.clearDefaultSession()
+// 
+// exit
