@@ -1,8 +1,8 @@
 
 // Este script é para rodar no Ammonite.
-// Dentro da shell REPL do Ammonitem, você deve invocar assim:
+// Dentro da shell REPL do Ammonitem, você deve invocar assim (duas linhas de código):
 //   import $file.AddBarrierForConstrainedActivity, AddBarrierForConstrainedActivity._
-// 
+//   ConstrainedActivity.main(null)
 // Para testar com a versão 2.4.0 (não existe release disponível no momento), é necessário 
 // fazer o build do Spark Localmente e usar:
 /*
